@@ -1,4 +1,4 @@
-package org.example.crm.util;
+package org.example;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
     private static Connection connection = null;
 
-    private static final String URL = "jdbc:mysql://localhost:3306/crm_db";  // Update with your database URL
+    private static final String URL = "jdbc:mysql://localhost:3306/devoi2db";  // Update with your database URL
     private static final String USER = "root";  // Update with your DB username
     private static final String PASSWORD = "";  // Update with your DB password
 
